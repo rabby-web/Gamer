@@ -140,6 +140,9 @@ section{
 }
 .online-card{
     padding: 10px;
+    margin: 10px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    border-radius: 15px;
 }
 /* --------responsive for mobile--------- */
 @media screen and (max-width: 576px) {
@@ -162,10 +165,32 @@ section{
     .banner-img{
         margin: 15px;
     }
+    section{
+        padding: 10px;
+        margin: 10px;
+    }
+    .online-card-container{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
+    .online-card img{
+        width: 100%;
+    }
 }
 /* --------responsive for tablet--------- */
 @media screen and (min-width: 579px) and (max-width: 990px) {
     nav{
+        padding: 30px;
+    }
+    section{
         padding: 10px;
+        margin: 10px;
+    }
+    .online-card-container{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+    .online-card img{
+        width: 100%;
     }
 }
