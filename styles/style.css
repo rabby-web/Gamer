@@ -150,20 +150,6 @@ section{
     align-items: center;
     justify-content: space-between;
 }
-.r-55{
-    width: 100%;
-    margin-left: 200px;
-}
-.r-66{
-    width: 50%;
-}
-.play-img .r-66{
-    position: relative;
-    bottom: 300px;
-}
-.play-text{
-    margin-right: 80px;
-}
 .play-title{
     text-align: right;
     font-size: 3rem;
@@ -175,6 +161,15 @@ section{
     text-align: right;
     font-size: 1rem;
     font-weight: 400;
+}
+.r-55{
+    width: 100%;
+    margin-left: 100px;
+}
+.r-66{
+    width: 50%;
+    position: relative;
+    bottom: 200px;
 }
 /* --------responsive for mobile--------- */
 @media screen and (max-width: 576px) {
@@ -211,33 +206,19 @@ section{
     /* play */
     .play-container{
         flex-direction: column;
-        margin: 20px;
-    }
-    .play-text{
-        margin-right: 0px;
-        text-align: center;
     }
     .r-55{
-        height: 100%;
+        width: 70%;
         margin-left: 100px;
     }
-    .play-img .r-66{
-        position: relative;
-        bottom: 120px;
-    }
-    .play-img .r-55{
-        width: 70%;
-    }
-    .play-img .r-66{
+    .r-66{
         width: 30%;
+        position: relative;
+        bottom: 150px;
     }
-    .play-title{
+    .play-title, .play-description{
         text-align: center;
     }
-    .play-description{
-        text-align: center;
-    }
-    /* /play */
 }
 /* --------responsive for tablet--------- */
 @media screen and (min-width: 579px) and (max-width: 990px) {
@@ -255,20 +236,20 @@ section{
     .online-card img{
         width: 100%;
     }
-    /* play */
+     /* play */
+     .play-container{
+        
+    }
     .r-55{
-        height: 100%;
+        width: 100%;
         margin-left: 100px;
     }
-    .play-img .r-66{
+    .r-66{
+        width: 50%;
         position: relative;
-        bottom: 120px;
+        bottom: 200px;
     }
-    .play-img .r-55{
-        width: 70%;
+    .play-title, .play-description{
+        text-align: center;
     }
-    .play-img .r-66{
-        width: 30%;
-    }
-    /* /play */
 }
