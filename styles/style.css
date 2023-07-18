@@ -116,6 +116,14 @@ nav{
         flex-direction: column;
         padding: 10px;
     }
+    .nav-item ul{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .nav-item ul li{
+        margin-top: 1rem;
+    }
     .banner{
         flex-direction: column-reverse;
         padding: 30px;
