@@ -59,6 +59,12 @@ nav{
     background: rgba(11, 2, 35, 0.10);
     padding: 1rem 1.5rem;
 }
+/* --------banner--------- */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 /* --------responsive for mobile--------- */
 @media screen and (max-width: 576px) {
     nav{
