@@ -182,7 +182,7 @@ section{
     display: flex;
     align-items: center;
     border-radius: 50px;
-    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    background-color: rgba(236, 232, 232, 0.712) ;
     margin-right: 16px;
     border-radius: 50px;
 }
@@ -250,6 +250,9 @@ section{
     .play-title, .play-description{
         text-align: center;
     }
+    .user{
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 /* --------responsive for tablet--------- */
 @media screen and (min-width: 579px) and (max-width: 990px) {
@@ -282,5 +285,8 @@ section{
     }
     .play-title, .play-description{
         text-align: center;
+    }
+    .user{
+        grid-template-columns: repeat(4, 1fr);
     }
 }
