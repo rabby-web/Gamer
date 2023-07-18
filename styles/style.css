@@ -59,3 +59,16 @@ nav{
     background: rgba(11, 2, 35, 0.10);
     padding: 1rem 1.5rem;
 }
+/* --------responsive for mobile--------- */
+@media screen and (max-width: 576px) {
+    nav{
+        flex-direction: column;
+        padding: 10px;
+    }
+}
+/* --------responsive for tablet--------- */
+@media screen and (min-width: 579px) and (max-width: 990px) {
+    nav{
+        padding: 10px;
+    }
+}
