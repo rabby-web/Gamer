@@ -173,8 +173,9 @@ section{
 .online-icon-card:hover{
     opacity: 1;
     border-radius: 16px;
+    border: 3px solid #FF42A5;
 }
-.fa-eye{
+.fa-circle-play{
     color: #FFFFFF;
     font-size: 1.5rem;
 }
