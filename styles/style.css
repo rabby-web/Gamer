@@ -338,6 +338,11 @@ footer{
     nav{
         padding: 30px;
     }
+    .banner{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 40px;
+    }
     section{
         padding: 10px;
         margin: 10px;
@@ -351,10 +356,10 @@ footer{
     }
      /* play */
      .play-container{
-        
+        flex-direction: column;
     }
     .r-55{
-        width: 100%;
+        width: 90%;
         margin-left: 100px;
     }
     .r-66{
