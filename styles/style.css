@@ -197,6 +197,7 @@ section{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 3rem;
 }
 .play-title{
     text-align: right;
@@ -210,8 +211,11 @@ section{
     font-size: 1rem;
     font-weight: 400;
 }
+.play-text{
+    /* padding-right: 4rem; */
+}
 .r-55{
-    width: 100%;
+    width: 80%;
     margin-left: 100px;
 }
 .r-66{
@@ -351,6 +355,9 @@ footer{
     /* play */
     .play-container{
         flex-direction: column;
+    }
+    .play-text{
+        padding-right: 0rem;
     }
     .r-55{
         width: 70%;
