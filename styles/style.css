@@ -202,9 +202,68 @@ section{
 }
 .user-text{
     color: #0B0223;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 600;
 }
+/* ---------footer--------- */
+footer{
+    background-color: #0B0223;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.footer{
+    text-align: center;
+    padding: 88px;
+    margin: 0 auto;
+}
+.footer-titl{
+    display: flex;
+    text-align: center;
+}
+.footer-heading{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.game-name {
+    text-align: center;
+}
+.game-name ul{
+    display: flex;
+    gap: 30px;
+}
+.game-name ul li{
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.footer-icon{
+    margin: 20px;
+}
+.footer-icon svg{
+    margin: 20px;
+}
+.footer-item{
+    display: flex;
+    gap: 20px;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+.footer-footer{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
 /* --------responsive for mobile--------- */
 @media screen and (max-width: 576px) {
     nav{
@@ -256,6 +315,22 @@ section{
     .user{
         grid-template-columns: repeat(3, 1fr);
         gap: 5px;
+    }
+    /* game */
+    .game-name ul{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: space-evenly;
+        gap: 30px;
+    }
+    .footer-item{
+        flex-wrap: wrap;
+        justify-content: center;
+        color: rgba(255, 255, 255, 0.60);
+        text-align: center;
+        font-size: 16px;
+        font-weight: 500;
     }
 }
 /* --------responsive for tablet--------- */
