@@ -361,12 +361,12 @@ footer{
     }
     .r-55{
         width: 70%;
-        margin-left: 100px;
+        margin-left: 10%;
     }
     .r-66{
         width: 30%;
         position: relative;
-        bottom: 150px;
+        bottom: 120px;
     }
     .play-title, .play-description{
         text-align: center;
